@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "components": {"minecraft:custom_data": {"TaxiDest":"latopa_mormor"}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "taxi:teleport/latopa_mormor"
+    }
+}
