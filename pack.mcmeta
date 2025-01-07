@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Adds a taxi cabbie who you can buy a teleport with using an item trade",
+    "description": "Adds a taxi cabbie who you can buy a teleport from using an item trade",
     "pack_format": 57,
     "supported_formats": [57, 61]
   }
