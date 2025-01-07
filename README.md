@@ -1,9 +1,10 @@
+# Taxi (cabbie) datapack
 This Minecraft datapack adds a cabbie, from whom you can buy a teleport to various in-game locations.
 
-# Usage
+## Usage
 `summon_cabbie.mcfunction` summons a cabbie. When a player trades with the cabbie (i.e. 1 iron ingot for a teleport to Latopa Mormor), they get teleported to the target destination.
 
-# Adding available destinations
+## Adding available destinations
 1. Edit the summon command in `data/taxi/function/summon_cabbie.mcfunction` which summons the cabbie. Make sure that the result of the trade gives the player an item with the component `"minecraft:custom_data":{TaxiDest:'tp_destination_name'}`, where `tp_destination_name` is the name of the destination your choice.
     - The item can be anything, as long as it has the component.
 3. Add an advancement `tp_destination_name.json` to `data/taxi/advancement/buy/` that checks if the player has bought an item with the above component, and runs the teleportation function as a reward.
