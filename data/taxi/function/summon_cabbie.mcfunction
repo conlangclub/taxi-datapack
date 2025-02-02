@@ -49,7 +49,7 @@ summon villager ~ ~ ~ { \
                 xp:0, \
                 buy:{id:"minecraft:iron_ingot", count:1}, \
                 sell:{ \
-                    id:"minecraft:eye_of_ender", \
+                    id:"minecraft:ender_eye", \
                     count:0, \
                     components:{ \
                         "minecraft:custom_name":'{"color":"gold","text":"waa bi vwoopchuch ida"}', \
