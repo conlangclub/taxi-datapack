@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "nbt": "{Item:{components:{'minecraft:custom_data':{TaxiDest:'vwoopchuch_ida'}}}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "taxi:teleport/vwoopchuch_ida"
+    }
+}
