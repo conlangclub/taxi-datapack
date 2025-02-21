@@ -3,7 +3,7 @@ summon villager ~ ~ ~ { \
     Invulnerable:1b, \
     PersistenceRequired:1b, \
     Willing:0b, \
-    Tags:["taxi:cabbie", "taxi:v1"], \
+    Tags:["taxi:cabbie", "taxi:v2"], \
     CustomName:'"harmor waa"', \
     attributes:[ \
         {id:"minecraft:movement_speed",base:0} \
@@ -54,6 +54,20 @@ summon villager ~ ~ ~ { \
                     components:{ \
                         "minecraft:custom_name":'{"color":"gold","text":"waa bi vwoopchuch ida"}', \
                         "minecraft:custom_data":{TaxiDest:'vwoopchuch_ida'} \
+                    } \
+                } \
+            }, \
+            { \
+                rewardExp:0b, \
+                maxUses:2147483647, \
+                xp:0, \
+                buy:{id:"minecraft:iron_ingot", count:1}, \
+                sell:{ \
+                    id:"minecraft:spruce_sapling", \
+                    count:0, \
+                    components:{ \
+                        "minecraft:custom_name":'{"color":"gold","text":"waa bi brropalatopa"}', \
+                        "minecraft:custom_data":{TaxiDest:'brropalatopa'} \
                     } \
                 } \
             } \
