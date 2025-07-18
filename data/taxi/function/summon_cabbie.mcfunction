@@ -4,7 +4,7 @@ summon villager ~ ~ ~ { \
     PersistenceRequired:1b, \
     Willing:0b, \
     Tags:["taxi:cabbie", "taxi:v3"], \
-    CustomName:'"harmor waa"', \
+    CustomName:'hamor waa', \
     attributes:[ \
         {id:"minecraft:movement_speed",base:0} \
     ], \
@@ -24,7 +24,7 @@ summon villager ~ ~ ~ { \
                     id:"minecraft:cherry_sapling", \
                     count:0, \
                     components:{ \
-                        "minecraft:custom_name":'{"color":"gold","text":"waa bi krasgima"}', \
+                        "minecraft:custom_name":{"color":"gold","text":"waa bi krasgima"}, \
                         "minecraft:custom_data":{TaxiDest:'krasgima'} \
                     } \
                 } \
@@ -38,7 +38,7 @@ summon villager ~ ~ ~ { \
                     id:"minecraft:grass_block", \
                     count:0, \
                     components:{ \
-                        "minecraft:custom_name":'{"color":"gold","text":"waa bi latopa mormor"}', \
+                        "minecraft:custom_name":{"color":"gold","text":"waa bi latopa mormor"}, \
                         "minecraft:custom_data":{TaxiDest:'latopa_mormor'} \
                     } \
                 } \
@@ -52,7 +52,7 @@ summon villager ~ ~ ~ { \
                     id:"minecraft:ender_eye", \
                     count:0, \
                     components:{ \
-                        "minecraft:custom_name":'{"color":"gold","text":"waa bi vwoopchuch ida"}', \
+                        "minecraft:custom_name":{"color":"gold","text":"waa bi vwoopchuch ida"}, \
                         "minecraft:custom_data":{TaxiDest:'vwoopchuch_ida'} \
                     } \
                 } \
@@ -66,7 +66,7 @@ summon villager ~ ~ ~ { \
                     id:"minecraft:spruce_sapling", \
                     count:0, \
                     components:{ \
-                        "minecraft:custom_name":'{"color":"gold","text":"waa bi brropalatopa"}', \
+                        "minecraft:custom_name":{"color":"gold","text":"waa bi brropalatopa"}, \
                         "minecraft:custom_data":{TaxiDest:'brropalatopa'} \
                     } \
                 } \
@@ -80,7 +80,7 @@ summon villager ~ ~ ~ { \
                     id:"minecraft:dark_oak_sapling", \
                     count:0, \
                     components:{ \
-                        "minecraft:custom_name":'{"color":"gold","text":"waa bi kolopa latopa"}', \
+                        "minecraft:custom_name":{"color":"gold","text":"waa bi kolopa latopa"}, \
                         "minecraft:custom_data":{TaxiDest:'kolopa_latopa'} \
                     } \
                 } \
